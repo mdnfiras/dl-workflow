@@ -18,6 +18,6 @@ jobs:
           cat report/metrics.txt >> report.md
           
           echo "## Data viz" >> report.md
-          cml-publish report/card-minimal-cartoonish-style-vector-templates-nice-job-lettering-speech-bubble-89326194.jpg --md >> report.md
+          cml-publish report/image.jpg --md >> report.md
           
           cml-send-comment report.md
